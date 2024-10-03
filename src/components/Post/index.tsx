@@ -4,7 +4,7 @@ import PostComments from '../PostComments';
 import { ReactNode } from 'react';
 
 type Props = {
-    children: ReactNode;
+    children?: ReactNode;
     imageUrl: string;
 }
 
